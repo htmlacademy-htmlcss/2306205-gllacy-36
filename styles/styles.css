@@ -1272,7 +1272,7 @@ li:focus-within .cart-popover {
 /* DELIVERY */
 
 .delivery {
-  background-image: url("../images/background-delivery.png");
+  background-image: url("../images/background-delivery.jpg");
   background-repeat: no-repeat;
   background-position: top -180px left -60px;
   padding: 64px 64px 64px 100px;
@@ -1281,6 +1281,7 @@ li:focus-within .cart-popover {
   align-items: center;
   border-radius: 16px;
   margin-bottom: 80px;
+  background-color: #e7e7e7;
 }
 
 .delivery article {
@@ -1412,6 +1413,7 @@ li:focus-within .cart-popover {
   display: flex;
   align-items: center;
   border-radius: 16px;
+  background-color: #e7e7e7;
 }
 
 .contacts-description {
