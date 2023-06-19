@@ -19,34 +19,35 @@
         <div class="menu">
 
           <ul class="navigation">
-            <li>
+            <li class="navigation-item">
               <a href="#" class="catalog-link">Каталог</a>
               <div class="inner-navigation-wrap">
                 <ul class="inner-navigation">
-                  <li><a href="#">Новинки</a></li>
-                  <li>
+                  <li class="inner-navigation-item"><a href="#">Новинки</a></li>
+                  <li class="inner-navigation-item">
                     <div></div>
                   </li>
-                  <li><a href="#">Сливочное</a></li>
-                  <li><a href="#">Щербеты</a></li>
-                  <li><a href="#">Фруктовый лед</a></li>
-                  <li><a href="#">Мелорин</a></li>
+                  <li class="inner-navigation-item"><a href="#">Сливочное</a></li>
+                  <li class="inner-navigation-item"><a href="#">Щербеты</a></li>
+                  <li class="inner-navigation-item"><a href="#">Фруктовый лед</a></li>
+                  <li class="inner-navigation-item"><a href="#">Мелорин</a></li>
                 </ul>
               </div>
             </li>
-            <li>
+            <li class="navigation-item">
               <a href="#">Доставка и оплата</a>
             </li>
-            <li>
+            <li class="navigation-item">
               <a href="#">О компании</a>
             </li>
           </ul>
 
           <ul class="user-navigation">
-            <li>
+            <li class="user-tel">
               <a href="tel:+78005558628" class="link-tel">+7 800 555-86-28</a>
             </li>
-            <li>
+
+            <li class="user-search">
               <a href="#" title="Поиск по сайту" class="search-link">
                 <svg class="search-icon" width="14" height="14" viewBox="0 0 14 14" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
@@ -61,11 +62,11 @@
               </form>
             </li>
 
-            <li>
+            <li class="user-login">
               <a href="#" title="Вход в личный кабинет" class="login-link">Вход</a>
 
               <form action="https://echo.htmlacademy.ru/courses" method="post" class="login-popover">
-                <p class="title">Личный кабинет</p>
+                <p class="title login-title">Личный кабинет</p>
                 <input class="common-input login-input" type="email" name="email" placeholder="email@example.com"
                   required>
                 <input class="common-input input-password" type="password" name="password" placeholder="......"
@@ -81,7 +82,7 @@
               </form>
             </li>
 
-            <li>
+            <li class="user-cart">
               <a href="#" class="cart-link">2 товара</a>
 
               <form class="cart-popover" action="https://echo.htmlacademy.ru/courses" method="get">
@@ -90,8 +91,8 @@
                   <li class="cart-item">
                     <a href="#" class="cart-form-link">
                       <div class="cart-image">
-                        <img class="cart-form-img" src="images/card-raspberry.jpg" alt="Малиновое мороженое"
-                          width="270" height="184">
+                        <img class="cart-form-img" src="images/card-raspberry.jpg" alt="Малиновое мороженое" width="270"
+                          height="184">
                       </div>
                       <div>
                         <p class="cart-title">Малинка</p>
@@ -105,8 +106,8 @@
                   <li class="cart-item">
                     <a href="#" class="cart-form-link">
                       <div class="cart-image">
-                        <img class="cart-form-img" src="images/card-bubblegum.jpg" alt="Малиновое мороженое"
-                          width="270" height="184">
+                        <img class="cart-form-img" src="images/card-bubblegum.jpg" alt="Малиновое мороженое" width="270"
+                          height="184">
                       </div>
                       <div>
                         <p class="cart-title">Бабл-гам</p>
@@ -136,18 +137,18 @@
         </div>
       </header>
 
-      <main>
+      <main class="main-index">
 
         <ul class="breadcrums">
-          <li>
+          <li class="breadcrums-item">
             <a href="index.html">Главная</a>
           </li>
 
-          <li>
+          <li class="breadcrums-item">
             <a href="#">Каталог</a>
           </li>
 
-          <li>
+          <li class="breadcrums-item">
             <a href="#">Сливочное мороженое</a>
           </li>
 
@@ -238,7 +239,7 @@
             </ul>
           </fieldset>
 
-          <button class="filters-button">Применить</button>
+          <button class="filters-button" type="submit">Применить</button>
 
         </form>
 
@@ -450,40 +451,42 @@
             </li>
 
           </ul>
-         </section>
+        </section>
 
 
         <div class="pagination">
-        <button class="main-button pagination-button" type="button">Показать еще</button>
-        <ul class="pagination-list">
-          <li><a href="#" class="pagination-previous inactive-pagination"></a></li>
-          <li><a href="#" class="pagination-link current-page">1</a></li>
-          <li><a href="#" class="pagination-link">2</a></li>
-          <li><a href="#" class="pagination-link">3</a></li>
-          <li><a href="#" class="pagination-link">4</a></li>
-          <li><a href="#" class="pagination-link">5</a></li>
-          <li><a href="#" class="pagination-next"></a></li>
-        </ul>
+          <button class="main-button pagination-button" type="button">Показать еще</button>
+          <ul class="pagination-list">
+            <li><a href="#" class="pagination-previous inactive-pagination"></a></li>
+            <li><a href="#" class="pagination-link current-page">1</a></li>
+            <li><a href="#" class="pagination-link">2</a></li>
+            <li><a href="#" class="pagination-link">3</a></li>
+            <li><a href="#" class="pagination-link">4</a></li>
+            <li><a href="#" class="pagination-link">5</a></li>
+            <li><a href="#" class="pagination-next"></a></li>
+          </ul>
 
 
-      </div>
+        </div>
 
       </main>
 
       <!-- Footer -->
       <footer class="main-footer">
+        <h3 class="visually-hidden">Наши соцсети</h3>
+
         <ul class="footer-social social-links">
-          <li class="social-telegram">
+          <li class="social-item social-telegram">
             <a href="https://t.me/htmlacademy">
               <span class="visually-hidden">Наш Телеграмм</span>
             </a>
           </li>
-          <li class="social-vk">
+          <li class="social-item social-vk">
             <a href="https://vk.com/htmlacademy">
               <span class="visually-hidden">Наш ВКонтакте</span>
             </a>
           </li>
-          <li class="social-youtube">
+          <li class="social-item social-youtube">
             <a href="https://www.youtube.com/user/htmlacademyru">
               <span class="visually-hidden">Наш канал на Ютуб</span>
             </a>
