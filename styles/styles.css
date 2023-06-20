@@ -1166,7 +1166,7 @@ body {
 }
 
 .about-content {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 56px 40px 56px 40px;
   border-radius: 16px;
 }
@@ -1388,7 +1388,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #565C66;
+  color: #565c66;
   padding: 10px 8px;
   background-color: #fcfcfc;
   border: 1px solid #b9b9b9;
@@ -1539,7 +1539,7 @@ body {
   line-height: 16px;
 }
 
-.madein p span {
+.underline-text {
   text-decoration: underline;
 }
 
